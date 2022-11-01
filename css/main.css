@@ -24,7 +24,7 @@ body {
   align-items: center;
   background: rgba(247, 247, 244, 0.4);
   position: absolute;
-  margin-left: 280px;
+  margin-left: 200px;
   
 }
 
@@ -55,7 +55,8 @@ body {
   padding: 16px 8px 16px 26px;
   border: 2px solid #6AA089;
   margin: 15px;
-  border-radius: 10px;}
+  border-radius: 10px;
+background-color: #F7F7F4;}
 
   .login .second_button {
   height: 52px;
@@ -70,11 +71,71 @@ body {
   border-radius: 10px;
 }
 /*  Конец блока хедер */
-.background_image {
+.first_block {
+  width: 1323px;
+  height: 866px;
+}
+
+.image {
   width: 707px;
   height: 866px;
-  background: url("../images/v1_3.png");
+  background: url("/images/v1_3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: auto;
+  float: right;
+}
+.title {
+  width: 616px;
+  height: 104px;
+  background-color: #F7F7F4;
+  margin-top: 181px;
+  font-size: 44px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+}
+
+.text {
+height: 140px;
+left: 17.92%;
+right: 61.2%;
+top: 358px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+color: #414141;
+background-color: #F7F7F4;
+margin: 72px 215px 101px 0px;
+}
+
+.buttons {
+  display: flex;
+}
+.first_block .first_button {
+  height: 52px;
+width: 159px;
+text-decoration: none;
+color: white;
+font-size: 14px;
+padding: 16px 12px 16px 26px;
+border: 1px solid #F7F7F4;
+margin: 15px;
+background-color: #6AA089;
+border-radius: 10px;
+
+}
+
+.first_block .second_button {
+height: 52px;
+width: 180px;
+text-decoration: none;
+color: black;
+font-size: 14px;
+padding: 16px 8px 16px 26px;
+border: 2px solid #6AA089;
+margin: 15px;
+border-radius: 10px;
+
+
 }
