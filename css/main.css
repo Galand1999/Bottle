@@ -18,7 +18,11 @@ body {
   margin: 0 auto;
   display: flex;
 
-
+}
+.wrapper_head {
+  width: 1433px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .header {
@@ -26,11 +30,11 @@ body {
   border-bottom: 1px solid #D6D6D6;
   align-items: center;
   background: rgba(247, 247, 244, 0.4);
-
+  position: absolute;
 }
 
 .logo {
-  margin: 24px;
+  margin: 24px 24px 24px 0px;
 }
 
 .nav a {
@@ -44,7 +48,7 @@ body {
 .login {
   display: flex;
   justify-content: flex-end;
-  margin-left: 294px;
+  margin-left: 194px;
   font-weight: 700;
 }
 .login .first_button {
@@ -76,6 +80,7 @@ background-color: #F7F7F4;}
   width: 1323px;
   height: 866px;
   margin-left: 50px;
+  position: relative;
 }
 
 .image {
@@ -114,7 +119,7 @@ margin: 72px 215px 101px 0px;
 .buttons {
   display: flex;
 }
-.first_block .first_button {
+.first_button {
   height: 52px;
 width: 159px;
 text-decoration: none;
@@ -128,7 +133,7 @@ border-radius: 10px;
 
 }
 
-.first_block .second_button {
+.second_button {
 height: 52px;
 width: 180px;
 text-decoration: none;
@@ -204,9 +209,11 @@ border-radius: 10px;
 .third_image  {
   width: 504px;
   height: 550px;
+  background: url(/images/2.png);
   background-repeat: no-repeat;
   background-size: cover;
   float: left;
+  margin-bottom: 76px;
 }
 .content {
   width: 536px;
@@ -244,4 +251,51 @@ margin-top: 40px;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-padding-top: 20px;}
+  padding-top: 20px;}
+
+  .cards {
+    width: 836px;
+    height: 252px;
+    margin-left: 300px;
+    margin-right: 52px;
+    display: flex;
+    gap: 110px;
+  }
+  .card-1 {
+    width: 180px;
+    height: 230px;
+    margin-top: 22px;
+  }
+  .card-2 {
+    width: 222px;
+    height: 226px;
+  
+  }
+  .card-3 {
+    width: 203px;
+    height: 250px;
+
+  }
+  .card-1 img {
+    margin: 5px;
+  }
+  .card_title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    color: #414141;
+    white-space: nowrap;
+    text-align: center;
+  }
+.card_text {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 10px;
+  }
