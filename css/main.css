@@ -14,8 +14,11 @@ body {
 /* Начало блока с хедер*/
 .wrapper {
   width: 1433px;
+  height: 100%;
   margin: 0 auto;
   display: flex;
+
+
 }
 
 .header {
@@ -23,9 +26,7 @@ body {
   border-bottom: 1px solid #D6D6D6;
   align-items: center;
   background: rgba(247, 247, 244, 0.4);
-  position: absolute;
-  margin-left: 200px;
-  
+
 }
 
 .logo {
@@ -74,6 +75,7 @@ background-color: #F7F7F4;}
 .first_block {
   width: 1323px;
   height: 866px;
+  margin-left: 50px;
 }
 
 .image {
@@ -137,5 +139,109 @@ border: 2px solid #6AA089;
 margin: 15px;
 border-radius: 10px;
 
+}
+/*  Конец первого блока */
+
+.second_block {
+  width: 1067px;
+  height: 412px;
+
+  position: relative;
+}
+
+.second_image  {
+  width: 275px;
+  height: 412px;
+  background: url("/images/Снимок\ экрана\ 2022-11-02\ 162656.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+.second_title {
+  width: 693px;
+  height: 128px;
+
+  margin-top: 181px;
+  font-size: 44px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  float: right;
+  margin-top: 54px;
+  margin-bottom: 230px;
+  text-align: center;
 
 }
+
+.second_text {
+
+  width: 410px;
+  height: 28px;
+  float: right;
+  position: absolute;
+  margin: 211px 142px 173px 516px;
+}
+/*  Конец второго блока */
+.third_block {
+  width: 1186px;
+  height: 1136px;
+  margin-top: 100px;
+}
+.third_title {
+  width: 634px;
+  height: 64px;
+  background-color: #F7F7F4;
+  font-size: 44px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  margin-left: 396px;
+  margin-right: 156px;
+  text-align: center;
+}
+.third_text {
+  display: inline-block;
+  margin: 30px 398px 142px 600px;
+}
+.third_image  {
+  width: 504px;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+.content {
+  width: 536px;
+  height: 298px;
+  float: right;
+}
+.content_title {
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 44px;
+}
+.content_text {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 32px;
+margin-top: 40px;
+}
+.content_button {
+  float: left;
+  width: 215px;
+  height: 62px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  border: 1px solid #69A08A;
+  margin-top: 24px;
+  border-radius: 10px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+padding-top: 20px;}
