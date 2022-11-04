@@ -17,7 +17,6 @@ body {
   height: 100%;
   margin: 0 auto;
   display: flex;
-  
 }
 .wrapper_head {
   width: 1433px;
@@ -86,9 +85,6 @@ background-color: #F7F7F4;}
 .image {
   width: 707px;
   height: 866px;
-  background: url("/images/v1_3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   float: right;
 }
 .title {
@@ -157,9 +153,6 @@ border-radius: 10px;
 .second_image  {
   width: 275px;
   height: 412px;
-  background: url("/images/Снимок\ экрана\ 2022-11-02\ 162656.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   float: left;
 }
 .second_title {
@@ -209,9 +202,6 @@ border-radius: 10px;
 .third_image  {
   width: 504px;
   height: 550px;
-  background: url(/images/2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   float: left;
   margin-bottom: 76px;
 }
@@ -446,19 +436,16 @@ text-align: center;
   width: 100%;
   height: 249px;
   margin-top: 100px;
-  position: relative;
+  margin-left: 100px;
 }
 .footer_logo {
   margin-top: 35px;
-  margin-left: 346px;
 }
 
 .footer_text {
-  margin-left: 344px;
   margin-top: 32px;
 }
 .footer_nav  {
-  margin-left: 349px;
   margin-top: 40px;
   margin-right: 0px;
   display: flex;
@@ -474,11 +461,39 @@ text-align: center;
   color: #414141;
 }
 .footer_links {
-  margin-left: 500px;
+  margin-left: 550px;
   display: flex;
   gap: 16px;
   width: 122px;
   height: 30px;
-  left: 1454px;
-  bottom: 40px;
 }
+.first_button:hover {
+  background-color: #018E65;
+}
+
+.first_button:active {
+  background-color: #01845E;
+}
+
+.second_button:hover {
+  background-color: #018E65;
+}
+
+.second_button:active {
+  background-color: #01845E;
+}
+.content_button:hover {
+  background-color: #018E65;
+}
+
+.content_button:active {
+  background-color: #01845E;
+}
+.six_button:hover {
+  background-color: #018E65;
+}
+
+.six_button:active {
+  background-color: #01845E;
+}
+
