@@ -17,6 +17,7 @@ body {
   height: 100%;
   margin: 0 auto;
   display: flex;
+
 }
 .wrapper_head {
   width: 1433px;
@@ -433,6 +434,8 @@ z-index: 10;
   bottom: 85px;
 }
 
+ /*  Конец шестого блока */
+ 
 .footer-full {
   height: 249px;
   width: 100%;
